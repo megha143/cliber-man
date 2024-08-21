@@ -1,0 +1,14 @@
+<div class="bls__header-wishlist">
+  <div class="bls-header-wishlist">
+    <a href="/pages/wishlist" class="wishlist-icon-bubble bls_tooltip">
+      {% if headerMeagShop %}
+        <i class="lnr lnr-heart fs-22 mr-10"></i>
+        <span class="bls_text">{{ 'templates.wishlist.wishlist' | t }}</span>
+      {% else %}
+        <span class="bls_tooltip-content-bottom">{{ 'templates.wishlist.wishlist' | t }}</span>
+        <i class="lnr lnr-heart fs-22"></i>
+        <div class="wishlist-count h-count">0</div>
+      {% endif %}
+    </a>
+  </div>
+</div>

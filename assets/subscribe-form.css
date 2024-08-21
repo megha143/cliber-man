@@ -1,0 +1,33 @@
+.bls__section_subcribe-form-content input[type="email"] {
+  min-width: 0;
+  background: transparent;
+  border: 2px solid var(--btn-primary-bg);
+}
+
+.bls__section_subcribe-form-content .input-vertical {
+  max-width: 510px;
+}
+
+.bls__section_subcribe-form-content .bls__subcribe-button {
+  padding: 0 4rem;
+  white-space: nowrap;
+  height: var(--input-height);
+}
+
+@media (max-width: 767px) {
+  .bls__section_subcribe-form-content .bls__subcribe-button {
+    padding: 0 2em;
+  }
+}
+
+@media (max-width: 575px) {
+
+  .bls__section_subcribe-form-content .bls__subcribe-button,
+  .bls__section_subcribe-form-content input[type="email"] {
+    width: 100%;
+  }
+
+  .bls__section_subcribe-form-content input[type="email"] {
+    margin: 0 0 1rem 0;
+  }
+}
